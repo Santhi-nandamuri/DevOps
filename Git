@@ -1,0 +1,20 @@
+Git commands :-
+
+1. git --version - to check git version
+2. git add - to add data from the working directory to the staging area. 
+3. git clone - Creates a copy of an existing Git repository. 
+4. git commit -m "message" - Takes the staged snapshot and commits it to the project history. Combined with git add, this defines the basic workflow for all Git users.
+5. git config - A convenient way to set configuration options for your Git installation. 
+6. git push - To move the data from working server to remote server/repository.
+7. git restore - to dicard changes in working directory.
+8. git remote - to check the remote origin.
+9. git log - To ee what changes are made/to check the logs.
+10. git diff - To check / compare the changes in a file(Need to do this before commit)
+11. git commit -a -m "message" - to add and commit at a time.
+12. git rm filename - To delete
+13. git ignore - To ignore some files.
+14. git tag -h - to shows the entire commands in git tag
+15. git tag -l - How to list files in Git
+16. git tag -d filename - To delete tag name
+17. git pull - To pull the updated data from central repository to working area.
+
