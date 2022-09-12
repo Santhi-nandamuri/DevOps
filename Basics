@@ -1,0 +1,72 @@
+Basics of DevOps
+
+SDLC - Software development life cycle
+      The Software Development Life Cycle (SDLC) is a structured process that enables the production of high-quality, low-cost software, in the shortest possible production time. The goal of the SDLC is to produce superior software that meets and exceeds all customer expectations and demands.
+
+There are 5 stages in SDLC
+1.Planning and analysis. This phase is the most fundamental in the SDLC process. ...
+2.Designing the product architecture. ...
+3.Developing and coding. ...
+4.Testing. ...
+5.Maintenance.
+
+What Are the 7 Phases of SDLC? 
+  The new seven phases of SDLC include planning, analysis, design, development, testing, implementation, and maintenance.
+
+Is SDLC waterfall or agile?
+Image result
+Agile and Waterfall are both Software Development Lifecycle (SDLC) methodologies that have been widely adopted in the IT industry. The Waterfall framework was designed to enable a structured and deliberate process for developing high quality information systems within project scope.
+Possible Drawbacks of SDLC
+1.Increased time and costs for the project development.
+2.All the details should be specified in advance.
+3.Low flexibility (especially in the final stages of the project development)
+4.The high volume of documentation.
+5.The attraction of different specialists.
+6.High involvement of the client.
+
+What do you mean by waterfall model?
+   Definition: The waterfall model is a classical model used in system development life cycle to create a system with a linear and sequential approach. It is termed as waterfall because the model develops systematically from one phase to another in a downward fashion.
+
+What are the 5 stages of waterfall model?
+But generally, you can group the activities of the waterfall approach into five stages: planning, design, implementation, verification, and maintenance.
+1.Requirements and Planning. ...
+2.Design. ...
+3.Implementation. ...
+4.Verification/Testing. ...
+5.Maintenance.
+
+*Advantages
+1.Before the next phase of development, each phase must be completed	
+2.Suited for smaller projects where requirements are well defined	
+
+*Dis-Advantages
+
+1.Error can be fixed only during the phase
+2.It is not desirable for complex project where requirement changes frequently
+
+
+What is Agile model ?
+
+  The Agile methodology is a way to manage a project by breaking it up into several phases. It involves constant collaboration with stakeholders and continuous improvement at every stage. Once the work begins, teams cycle through a process of planning, executing, and evaluating.
+
+Types of Agile Methodology ?
+
+  There are 5 main Agile methodologies: Scrum, Kanban, Extreme Programming (XP), Lean Development e Crystal.
+
+What are the advantages of Agile ?
+
+ Better Quality: Because it is iterative, one big benefit of agile methodology is the ability to find problems and create solutions quickly and efficiently. The flexibility of the agile method allows project teams to respond to customer reaction and constantly improve the product.
+
+
+What are the disadvantages of Agile ?
+
+ 5 Key Disadvantages of Agile Methodology
+1.Poor resource planning. ...
+2.Limited documentation. ...
+3.Fragmented output. ...
+4.No finite end. ...
+5.Difficult measurement.
+
+Why DevOps is required if we have Agile?
+
+   DevOps is an approach to software development that enables teams to build, test, and release software faster and more reliably by incorporating agile principles and practices, such as increased automation and improved collaboration between development and operations teams. Development, testing, and deployment occur in ...
