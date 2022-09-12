@@ -1,22 +1,26 @@
 Basics of DevOps
 
 SDLC - Software development life cycle
-      The Software Development Life Cycle (SDLC) is a structured process that enables the production of high-quality, low-cost software, in the shortest possible production time. The goal of the SDLC is to produce superior software that meets and exceeds all customer expectations and demands.
+      The Software Development Life Cycle (SDLC) is a structured process that enables the production of high-quality, low-cost software, in the shortest possible production time.
+      The goal of the SDLC is to produce superior software that meets and exceeds all customer expectations and demands.
 
 There are 5 stages in SDLC
-1.Planning and analysis. This phase is the most fundamental in the SDLC process. ...
+1.Requirements gathering and analysing. This phase is the most fundamental in the SDLC process. ...
 2.Designing the product architecture. ...
 3.Developing and coding. ...
 4.Testing. ...
 5.Maintenance.
 
 What Are the 7 Phases of SDLC? 
-  The new seven phases of SDLC include planning, analysis, design, development, testing, implementation, and maintenance.
+  The new seven phases of SDLC include planning, analysis, design, development, implementation, testing and maintenance.
 
 Is SDLC waterfall or agile?
-Image result
-Agile and Waterfall are both Software Development Lifecycle (SDLC) methodologies that have been widely adopted in the IT industry. The Waterfall framework was designed to enable a structured and deliberate process for developing high quality information systems within project scope.
-Possible Drawbacks of SDLC
+
+Agile and Waterfall are both Software Development Lifecycle (SDLC) methodologies that have been widely adopted in the IT industry. 
+The Waterfall framework was designed to enable a structured and deliberate process for developing high quality information systems within project scope.
+
+Possible Drawbacks of SDLC ?
+
 1.Increased time and costs for the project development.
 2.All the details should be specified in advance.
 3.Low flexibility (especially in the final stages of the project development)
@@ -25,9 +29,12 @@ Possible Drawbacks of SDLC
 6.High involvement of the client.
 
 What do you mean by waterfall model?
-   Definition: The waterfall model is a classical model used in system development life cycle to create a system with a linear and sequential approach. It is termed as waterfall because the model develops systematically from one phase to another in a downward fashion.
+
+   Definition: The waterfall model is a classical model used in system development life cycle to create a system with a linear and sequential approach. 
+   It is termed as waterfall because the model develops systematically from one phase to another in a downward fashion.
 
 What are the 5 stages of waterfall model?
+
 But generally, you can group the activities of the waterfall approach into five stages: planning, design, implementation, verification, and maintenance.
 1.Requirements and Planning. ...
 2.Design. ...
@@ -47,15 +54,22 @@ But generally, you can group the activities of the waterfall approach into five 
 
 What is Agile model ?
 
-  The Agile methodology is a way to manage a project by breaking it up into several phases. It involves constant collaboration with stakeholders and continuous improvement at every stage. Once the work begins, teams cycle through a process of planning, executing, and evaluating.
+  The Agile methodology is a way to manage a project by breaking it up into several phases. 
+  It involves constant collaboration with stakeholders and continuous improvement at every stage. 
+  Once the work begins, teams cycle through a process of planning, executing, and evaluating.
 
 Types of Agile Methodology ?
 
-  There are 5 main Agile methodologies: Scrum, Kanban, Extreme Programming (XP), Lean Development e Crystal.
+  There are 5 main Agile methodologies: Scrum(individual status), Kanban, Extreme Programming (XP), Lean Development e Crystal,.
+  *jira is a tool which is used to track the work of the each individual in the project
+  *project is divided into parts (either Milestone or Iteration) which are again classified into Sprints(time duration will be one week or 2 weeks), 
+  based on Sprint Scrum calls will be held every day depends on project team members localities (india r us, etc..). 
+  These all will be planned by Scrum master/product developer. 
 
 What are the advantages of Agile ?
 
- Better Quality: Because it is iterative, one big benefit of agile methodology is the ability to find problems and create solutions quickly and efficiently. The flexibility of the agile method allows project teams to respond to customer reaction and constantly improve the product.
+ Better Quality: Because it is iterative, one big benefit of agile methodology is the ability to find problems and create solutions quickly and efficiently.
+ The flexibility of the agile method allows project teams to respond to customer reaction and constantly improve the product.
 
 
 What are the disadvantages of Agile ?
@@ -69,4 +83,18 @@ What are the disadvantages of Agile ?
 
 Why DevOps is required if we have Agile?
 
-   DevOps is an approach to software development that enables teams to build, test, and release software faster and more reliably by incorporating agile principles and practices, such as increased automation and improved collaboration between development and operations teams. Development, testing, and deployment occur in ...
+   DevOps is an approach to software development that enables teams to build, test, and release software faster and more reliably by incorporating agile principles and practices,
+   such as increased automation and improved collaboration between development and operations teams. Development, testing, and deployment occur in ...
+   
+  * Devops came into the picture because of , to eliminate the gap between Development and operations team.
+   ex: if developer develops any code/application and give it to the operations team, it may or may not work at operations team , 
+   there may be difference in environment differences, configutration differences.
+   
+   * Devops engineer jobs : 
+  1. Setting up the configuring the infrastructure
+  2. Automating the tasks
+  3.setting up the monitoring alerts
+  4. Writing the configutation files 
+  5. If need, sharing knowledge to team members.
+   
+   
