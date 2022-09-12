@@ -1,0 +1,14 @@
+Linux commands
+
+1. pwd - To know which directory you are in, you can use the “pwd” command.
+2. touch - used creating a file
+3. ls - to list the files
+4. cd - change directory
+5. mkdir - when you need to create a folder or a directory.
+6. rmdir - rmdir can only be used to delete an empty directory. 
+7. rm - To delete a directory containing files, use rm.
+8. rm -r - to delete just the directory
+9. cp -  to copy files through the command line.
+10. mv - to move files through the command line. We can also use the mv command          to rename a file.
+11. cat - Use the cat command to display the contents of a file. It is usually u          sed to easily view programs.
+12. ping - to check your connection to a server.
