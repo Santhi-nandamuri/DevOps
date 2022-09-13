@@ -1,27 +1,105 @@
 Git commands :-
 
-1. git --version - to check git version
-2. git add - to add data from the working directory to the staging area. 
-3. git clone - Creates a copy of an existing Git repository. 
+If we are not sure about any git command we can use first two words git command -h (h stands for help)
+ ex: git commit -h which shows all the git commit abbrevations or commands
+     git 
+
+
+1. git --version - to check git version(2.x )
+
+
+2. git add - to add data from the working directory to the staging area.
+
+
+3. git clone (url of the repository) - Creates a copy of an existing Git repository. 
+
+
 4. git commit -m "message" - Takes the staged snapshot and commits it to the project history. Combined with git add, this defines the basic workflow for all Git users.
+
+
 5. git config - A convenient way to set configuration options for your Git installation. 
+
+
 6. git push - To move the data from working server to remote server/repository.
+
+
 7. git restore - to dicard changes in working directory.
+
+
 8. git remote - to check the remote origin.
-9. git log - To ee what changes are made/to check the logs.
-10. git diff - To check / compare the changes in a file(Need to do this before commit)
+
+
+9. git log - To see what changes are made/to check the logs.
+
+
+10. git diff - To check / compare the changes in a previous file modification and current file(Need to do this before commit)
+
+
 11. git commit -a -m "message" - to add and commit at a time.
+
+
 12. git rm filename - To delete
-13. git ignore - To ignore some files.
+
+
+13. .gitignore - To ignore some files.
+
+
 14. git tag -h - to shows the entire commands in git tag
+
+
 15. git tag -l - How to list files in Git
+
+
 16. git tag -d filename - To delete tag name
+
+
 17. git pull - To pull the updated data from central repository to working area.
+
+
 18. git branch - to list out the branches
+
+
 19. git branch (branch name) - to create a new branch
+
+
 20. git checkout (branch name) - to move from one branch to another branch
+
+
 21. git merge (branch name) - to merge the commits made in branches to the main branch
+
+
 22. git rebase - changing the point of contact to main branch
+
+
 23. git branch (branch name) (privious branch id) - we can create a new branch in the previous branch by using previous branch id
+
+
 24. git conflict - will conflict with others edits for same files, so before doing push need to pull.
+
+
 25. git reset - will cleans the staging area and moves files from staging area to work area
+
+    git reset --mixed
+    
+    
+    git reset --hard
+    
+    git reset --soft
+
+26. git stash - to save modified files in some other place(we dont know about the place where it will save, will be taken care by git only.)
+    command - git stash stashname
+        ex: git stash myfile
+        
+27. git stash pop stashid - to retrive the saved files by stash
+    ex: git stash pop stashid of my file
+
+28. git stash list - to show the list of stashes
+
+
+29. git squash - 
+
+
+   git revert
+
+        
+        
