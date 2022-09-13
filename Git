@@ -17,4 +17,11 @@ Git commands :-
 15. git tag -l - How to list files in Git
 16. git tag -d filename - To delete tag name
 17. git pull - To pull the updated data from central repository to working area.
-
+18. git branch - to list out the branches
+19. git branch (branch name) - to create a new branch
+20. git checkout (branch name) - to move from one branch to another branch
+21. git merge (branch name) - to merge the commits made in branches to the main branch
+22. git rebase - changing the point of contact to main branch
+23. git branch (branch name) (privious branch id) - we can create a new branch in the previous branch by using previous branch id
+24. git conflict - will conflict with others edits for same files, so before doing push need to pull.
+25. git reset - will cleans the staging area and moves files from staging area to work area
