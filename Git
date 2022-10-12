@@ -65,7 +65,7 @@ If we are not sure about any git command we can use first two words git command 
 20. git checkout (branch name) - to move from one branch to another branch
 
 
-21. git merge (branch name) - to merge the commits made in branches to the main branch
+21. git merge (branch name) - to merge the commits made in child branches to the main branch
 
 
 22. git rebase - changing the point of contact to main branch
@@ -79,12 +79,11 @@ If we are not sure about any git command we can use first two words git command 
 
 25. git reset - will cleans the staging area and moves files from staging area to work area
 
-    git reset --mixed
+    a) git reset --mixed - default option
+     
+    b) git reset --hard - whatever changes made are cleaned up, all will be gone
     
-    
-    git reset --hard
-    
-    git reset --soft
+    c) git reset --soft - will remove the last commit from the current branch, but the file changes will stay in your working tree.
 
 26. git stash - to save modified files in some other place(we dont know about the place where it will save, will be taken care by git only.)
     command - git stash stashname
@@ -96,10 +95,36 @@ If we are not sure about any git command we can use first two words git command 
 28. git stash list - to show the list of stashes
 
 
-29. git squash - 
+29. git squash - a way to rewrite your commit history, you are taking the changes from one commit and adding them to the Parent Commit.
+
+30. git revert - undoing changes to a repository's commit history
+
+31. git cherrypick - Cherry picking is the act of picking a commit from a branch and applying it to another. git cherry-pick can be useful for undoing changes. 
+                     For example, say a commit is accidently made to the wrong branch. You can switch to the correct branch and cherry-pick the commit to where 
+                     it should belong.
+32. git tree - A Git tree object creates the hierarchy between files in a Git repository.
+
+33. git log branchname -  it lists all the commits from the branch
+
+34. git log branchname --not master -  to exclude the commits reachable by master and gives me what I want
+
+35. git log --oneline - to view the commits in oneline
+
+36. git add. - will only add modified and untracked files in the current directory and any sub-directories
+
+37. git remote add origin "url" - to add created/committed changes from local repo to Git hub url
+
+38. git remote -v - To view the remote repo list
+
+39. git fetch - used to download contents from a remote repository
+
+40. git rebase -h - to known how many are used in rebase using h, h stands for help
+
+41. echo sometext >> somefile.txt - it will replace the total content in file with sometext(which is written in command line), means entire data in a file will erase.
+
+42. echo  sometext/ >> somefile.txt - if "/" is present then this text(sometext) will add after the existing text
 
 
-   git revert
 
         
         
