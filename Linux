@@ -33,4 +33,26 @@ Linux commands
 
 16. ll - which will show entire details of files (including time, storage)
 
-16. 
+17. cd .. -  to go back to one path
+
+18. cd ../.. -  to go back to 2 paths
+
+19. rm (filename1) (filename2) -  to delete 2 files at a time
+
+20. esc_ :q! - to quit without saving
+
+21. clear - to clear the screen
+
+22. ls -l - to list out all the files
+
+23. .file - when a file name starts with "." then it is a hidden file
+
+24. ls -a - to see hidden files
+
+25. ls -la - will get a long lists of normal files as well as hidden files.
+
+
+
+
+
+
